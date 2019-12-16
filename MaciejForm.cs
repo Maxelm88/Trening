@@ -55,6 +55,7 @@ namespace Trening
         private void btnDodaj_Click(object sender, EventArgs e)
         {
             btnPrzelicz_Click(sender, e);
+
             SqlCommand command;
 
             string insert = @"insert into Maciej(Data, Okrążenia, Czas, Dystans, Srednie_Tempo, Srednia_Predkosc, Sredni_Czas_Okrazenia) values(@Data, @okrazenia, @Czas, @Dystans, @Srednie_Tempo, @Srednia_Predkosc, @Sredni_Czas_Okrazenia)";
