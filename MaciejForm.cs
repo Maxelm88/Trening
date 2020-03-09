@@ -18,7 +18,7 @@ namespace Trening
         DataTable table;
         SqlConnection conn;
 
-        string connString = @"Data Source=mysqlservermaxelm.database.windows.net;Initial Catalog=AddressBook;User ID=azureuser;Password=Tibia123;Connect Timeout=30;Encrypt=True;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False";
+        string connString = @"Data Source=MACIEJ-KOMPUTER\SQLEXPRESS;Initial Catalog=trening;Integrated Security=True";
 
         string wyswietl = "Select * from Maciej";
 
