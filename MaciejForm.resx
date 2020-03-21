@@ -121,8 +121,8 @@
   <data name="btnPrzelicz.Location" type="System.Drawing.Point, System.Drawing">
     <value>50, 411</value>
   </data>
-  <data name="&gt;&gt;txtSumaDystans.ZOrder" xml:space="preserve">
-    <value>12</value>
+  <data name="&gt;&gt;txtSumaSrednieTempo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;label4.ZOrder" xml:space="preserve">
     <value>39</value>
@@ -143,9 +143,8 @@
   <data name="label7.Text" xml:space="preserve">
     <value>Średni czas okrążenia</value>
   </data>
-  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="txtMinuta.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
+  <data name="&gt;&gt;label5.ZOrder" xml:space="preserve">
+    <value>38</value>
   </data>
   <data name="&gt;&gt;btnDodaj.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -153,11 +152,15 @@
   <data name="btnPrzelicz.Text" xml:space="preserve">
     <value>Przelicz</value>
   </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="txtSekunda.MaxLength" type="System.Int32, mscorlib">
     <value>2</value>
   </data>
   <data name="&gt;&gt;txtCzas.Parent" xml:space="preserve">
     <value>$this</value>
+  </data>
+  <data name="cboRok.Size" type="System.Drawing.Size, System.Drawing">
+    <value>121, 24</value>
   </data>
   <data name="&gt;&gt;txtDystans.ZOrder" xml:space="preserve">
     <value>33</value>
@@ -167,9 +170,6 @@
   </data>
   <data name="&gt;&gt;label15.Name" xml:space="preserve">
     <value>label15</value>
-  </data>
-  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>1179, 838</value>
   </data>
   <data name="label4.TabIndex" type="System.Int32, mscorlib">
     <value>4</value>
@@ -204,6 +204,9 @@
   <data name="&gt;&gt;label8.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <data name="label10.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
   <data name="&gt;&gt;txtOkres.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
@@ -237,17 +240,14 @@
   <data name="&gt;&gt;txtSumaSredniCzasOkrazen.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="txtSumaSrednieTempo.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
+  <data name="label18.TabIndex" type="System.Int32, mscorlib">
+    <value>39</value>
   </data>
   <data name="&gt;&gt;label15.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="txtSumaSrednieTempo.TabIndex" type="System.Int32, mscorlib">
     <value>42</value>
-  </data>
-  <data name="&gt;&gt;label5.Name" xml:space="preserve">
-    <value>label5</value>
   </data>
   <data name="btnSzukaj.Text" xml:space="preserve">
     <value>Szukaj</value>
@@ -264,9 +264,6 @@
   <data name="&gt;&gt;label20.Name" xml:space="preserve">
     <value>label20</value>
   </data>
-  <data name="&gt;&gt;txtSumaDystans.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
   <data name="label12.Size" type="System.Drawing.Size, System.Drawing">
     <value>19, 17</value>
   </data>
@@ -282,9 +279,6 @@
   <data name="&gt;&gt;label4.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="txtIloscOkrazen.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 4, 4, 4</value>
-  </data>
   <data name="label19.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
@@ -296,9 +290,6 @@
   </data>
   <data name="&gt;&gt;label10.Name" xml:space="preserve">
     <value>label10</value>
-  </data>
-  <data name="label15.Size" type="System.Drawing.Size, System.Drawing">
-    <value>46, 17</value>
   </data>
   <data name="&gt;&gt;label5.Parent" xml:space="preserve">
     <value>$this</value>
@@ -320,6 +311,9 @@
   </data>
   <data name="txtSredniaPredkosc.Size" type="System.Drawing.Size, System.Drawing">
     <value>101, 23</value>
+  </data>
+  <data name="label8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>654, 414</value>
   </data>
   <data name="&gt;&gt;txtSumaCzas.Name" xml:space="preserve">
     <value>txtSumaCzas</value>
@@ -351,6 +345,9 @@
   <data name="&gt;&gt;label7.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <data name="label20.Text" xml:space="preserve">
+    <value>Średnie tempo</value>
+  </data>
   <data name="btnDodaj.Location" type="System.Drawing.Point, System.Drawing">
     <value>131, 411</value>
   </data>
@@ -359,6 +356,9 @@
   </data>
   <data name="label1.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
+  </data>
+  <data name="txtSumaCzas.Location" type="System.Drawing.Point, System.Drawing">
+    <value>536, 164</value>
   </data>
   <data name="txtSredniaPredkosc.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>MiddleCenter</value>
@@ -372,8 +372,14 @@
   <data name="label20.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
+  <data name="cboRok.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
   <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
     <value>91, 17</value>
+  </data>
+  <data name="cboRok.Items2" xml:space="preserve">
+    <value>2021</value>
   </data>
   <data name="&gt;&gt;dataGridViewMaciej.ZOrder" xml:space="preserve">
     <value>30</value>
@@ -391,6 +397,9 @@
     <value>$this</value>
   </data>
   <data name="label9.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="label12.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>4, 0, 4, 0</value>
   </data>
   <data name="txtSumaDystans.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
@@ -413,9 +422,6 @@
   </data>
   <data name="&gt;&gt;txtGodzina.ZOrder" xml:space="preserve">
     <value>34</value>
-  </data>
-  <data name="&gt;&gt;txtSumaSrednieTempo.Parent" xml:space="preserve">
-    <value>$this</value>
   </data>
   <data name="&gt;&gt;label20.Parent" xml:space="preserve">
     <value>$this</value>
@@ -459,8 +465,8 @@
   <data name="btnEdytuj.Location" type="System.Drawing.Point, System.Drawing">
     <value>212, 411</value>
   </data>
-  <data name="cboRok.TabIndex" type="System.Int32, mscorlib">
-    <value>7</value>
+  <data name="txtMinuta.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
   </data>
   <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
     <value>59, 17</value>
@@ -492,6 +498,9 @@
   <data name="&gt;&gt;$this.Type" xml:space="preserve">
     <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <data name="txtSumaSredniaPredkosc.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
   <data name="&gt;&gt;txtSumaSredniCzasOkrazen.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
@@ -522,9 +531,6 @@
   <data name="cboRok.Location" type="System.Drawing.Point, System.Drawing">
     <value>716, 411</value>
   </data>
-  <data name="cboMiesiac.Items10" xml:space="preserve">
-    <value>Listopad</value>
-  </data>
   <data name="&gt;&gt;txtGodzina.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
@@ -546,11 +552,14 @@
   <data name="label12.Location" type="System.Drawing.Point, System.Drawing">
     <value>190, 105</value>
   </data>
-  <data name="cboRok.Size" type="System.Drawing.Size, System.Drawing">
-    <value>121, 24</value>
+  <data name="label18.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="txtSumaDystans.Size" type="System.Drawing.Size, System.Drawing">
     <value>123, 23</value>
+  </data>
+  <data name="label12.Text" xml:space="preserve">
+    <value>s:</value>
   </data>
   <data name="dateTimePickerData.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
     <value>No</value>
@@ -566,9 +575,6 @@
   </data>
   <data name="&gt;&gt;txtSredniaPredkosc.ZOrder" xml:space="preserve">
     <value>18</value>
-  </data>
-  <data name="label24.Size" type="System.Drawing.Size, System.Drawing">
-    <value>148, 17</value>
   </data>
   <data name="&gt;&gt;txtIloscOkrazen.Name" xml:space="preserve">
     <value>txtIloscOkrazen</value>
@@ -603,6 +609,9 @@
   <data name="&gt;&gt;label15.ZOrder" xml:space="preserve">
     <value>5</value>
   </data>
+  <data name="txtSumaIloscOkrazen.Location" type="System.Drawing.Point, System.Drawing">
+    <value>536, 130</value>
+  </data>
   <data name="txtDystans.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>4, 4, 4, 4</value>
   </data>
@@ -630,14 +639,14 @@
   <data name="label7.TabIndex" type="System.Int32, mscorlib">
     <value>7</value>
   </data>
+  <data name="label16.Text" xml:space="preserve">
+    <value>Czas</value>
+  </data>
   <data name="&gt;&gt;label12.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;label5.ZOrder" xml:space="preserve">
+  <data name="txtSumaCzas.TabIndex" type="System.Int32, mscorlib">
     <value>38</value>
-  </data>
-  <data name="&gt;&gt;dataGridViewMaciej.Type" xml:space="preserve">
-    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;label10.Parent" xml:space="preserve">
     <value>$this</value>
@@ -647,9 +656,6 @@
   </data>
   <data name="cboMiesiac.TabIndex" type="System.Int32, mscorlib">
     <value>8</value>
-  </data>
-  <data name="&gt;&gt;label7.Name" xml:space="preserve">
-    <value>label7</value>
   </data>
   <data name="label1.Text" xml:space="preserve">
     <value>Data</value>
@@ -675,17 +681,14 @@
   <data name="&gt;&gt;label6.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="label2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 0, 4, 0</value>
+  <data name="&gt;&gt;txtSumaCzas.ZOrder" xml:space="preserve">
+    <value>14</value>
   </data>
   <data name="txtSredniaPredkosc.Location" type="System.Drawing.Point, System.Drawing">
     <value>168, 253</value>
   </data>
   <data name="txtGodzina.Size" type="System.Drawing.Size, System.Drawing">
     <value>43, 23</value>
-  </data>
-  <data name="label2.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
   </data>
   <data name="label7.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -704,6 +707,9 @@
   </data>
   <data name="txtMinuta.Size" type="System.Drawing.Size, System.Drawing">
     <value>43, 23</value>
+  </data>
+  <data name="btnEdytuj.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
   </data>
   <data name="txtSredniaPredkosc.TabIndex" type="System.Int32, mscorlib">
     <value>31</value>
@@ -771,6 +777,9 @@
   <data name="&gt;&gt;btnEdytuj.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
+  <data name="txtSumaSrednieTempo.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
   <data name="&gt;&gt;label19.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
@@ -780,11 +789,11 @@
   <data name="label2.Text" xml:space="preserve">
     <value>Ilość okrążeń</value>
   </data>
-  <data name="label3.Text" xml:space="preserve">
-    <value>Czas</value>
-  </data>
   <data name="label3.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
+  </data>
+  <data name="txtGodzina.Location" type="System.Drawing.Point, System.Drawing">
+    <value>44, 99</value>
   </data>
   <data name="label15.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -792,23 +801,14 @@
   <data name="&gt;&gt;txtSumaSredniCzasOkrazen.Name" xml:space="preserve">
     <value>txtSumaSredniCzasOkrazen</value>
   </data>
-  <data name="label18.TabIndex" type="System.Int32, mscorlib">
-    <value>39</value>
-  </data>
   <data name="label3.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
-  </data>
-  <data name="txtSumaSredniCzasOkrazen.TabIndex" type="System.Int32, mscorlib">
-    <value>46</value>
   </data>
   <data name="txtIloscOkrazen.Text" xml:space="preserve">
     <value>0</value>
   </data>
   <data name="&gt;&gt;label16.ZOrder" xml:space="preserve">
     <value>15</value>
-  </data>
-  <data name="&gt;&gt;txtSumaCzas.ZOrder" xml:space="preserve">
-    <value>14</value>
   </data>
   <data name="label8.Text" xml:space="preserve">
     <value>Miesiąc</value>
@@ -819,14 +819,17 @@
   <data name="label20.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
+  <data name="label6.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
   <data name="dateTimePickerData.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>4, 4, 4, 4</value>
   </data>
   <data name="cboRok.Items" xml:space="preserve">
     <value>2019</value>
   </data>
-  <data name="txtGodzina.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 4, 4, 4</value>
+  <data name="txtIloscOkrazen.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
   </data>
   <data name="&gt;&gt;label18.Name" xml:space="preserve">
     <value>label18</value>
@@ -836,9 +839,6 @@
   </data>
   <data name="label22.TabIndex" type="System.Int32, mscorlib">
     <value>43</value>
-  </data>
-  <data name="&gt;&gt;txtMinuta.Name" xml:space="preserve">
-    <value>txtMinuta</value>
   </data>
   <data name="txtDystans.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
     <value>Center</value>
@@ -876,6 +876,9 @@
   <data name="txtSumaDystans.Location" type="System.Drawing.Point, System.Drawing">
     <value>536, 197</value>
   </data>
+  <data name="&gt;&gt;txtSumaDystans.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
   <data name="label9.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
@@ -888,26 +891,17 @@
   <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
     <value>16, 22</value>
   </data>
-  <data name="&gt;&gt;label20.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
   <data name="cboMiesiac.Items" xml:space="preserve">
     <value>Styczeń</value>
-  </data>
-  <data name="label18.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 0, 4, 0</value>
   </data>
   <data name="&gt;&gt;txtSumaSrednieTempo.ZOrder" xml:space="preserve">
     <value>10</value>
   </data>
-  <data name="&gt;&gt;label4.Name" xml:space="preserve">
-    <value>label4</value>
-  </data>
   <data name="&gt;&gt;label3.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;txtSumaSrednieTempo.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="txtCzas.TabIndex" type="System.Int32, mscorlib">
+    <value>29</value>
   </data>
   <data name="txtSumaSrednieTempo.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>MiddleCenter</value>
@@ -920,6 +914,9 @@
   </data>
   <data name="btnDodaj.TabIndex" type="System.Int32, mscorlib">
     <value>19</value>
+  </data>
+  <data name="&gt;&gt;label9.ZOrder" xml:space="preserve">
+    <value>1</value>
   </data>
   <data name="&gt;&gt;cboMiesiac.Name" xml:space="preserve">
     <value>cboMiesiac</value>
@@ -948,11 +945,8 @@
   <data name="&gt;&gt;$this.Name" xml:space="preserve">
     <value>MaciejForm</value>
   </data>
-  <data name="txtSumaSredniaPredkosc.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="btnEdytuj.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 35</value>
+  <data name="&gt;&gt;txtSumaDystans.Parent" xml:space="preserve">
+    <value>$this</value>
   </data>
   <data name="&gt;&gt;txtSredniCzasOkrazenia.Parent" xml:space="preserve">
     <value>$this</value>
@@ -960,20 +954,23 @@
   <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 10pt</value>
   </data>
+  <data name="label1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 10pt</value>
+  </data>
   <data name="btnSzukaj.TabIndex" type="System.Int32, mscorlib">
     <value>33</value>
-  </data>
-  <data name="txtSumaSredniaPredkosc.Location" type="System.Drawing.Point, System.Drawing">
-    <value>536, 263</value>
   </data>
   <data name="label24.Text" xml:space="preserve">
     <value>Średni czas okrążenia</value>
   </data>
-  <data name="label6.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 0, 4, 0</value>
+  <data name="cboMiesiac.Items4" xml:space="preserve">
+    <value>Maj</value>
   </data>
-  <data name="txtSumaCzas.TabIndex" type="System.Int32, mscorlib">
-    <value>38</value>
+  <data name="btnEdytuj.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 35</value>
+  </data>
+  <data name="txtSumaSredniCzasOkrazen.Location" type="System.Drawing.Point, System.Drawing">
+    <value>536, 299</value>
   </data>
   <data name="&gt;&gt;bindingSourceMaciej.Name" xml:space="preserve">
     <value>bindingSourceMaciej</value>
@@ -995,6 +992,9 @@
   </data>
   <data name="cboRok.Items1" xml:space="preserve">
     <value>2020</value>
+  </data>
+  <data name="&gt;&gt;txtGodzina.Name" xml:space="preserve">
+    <value>txtGodzina</value>
   </data>
   <data name="txtOkres.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -1023,9 +1023,6 @@
   <data name="label6.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="label20.TabIndex" type="System.Int32, mscorlib">
-    <value>41</value>
-  </data>
   <data name="&gt;&gt;label22.ZOrder" xml:space="preserve">
     <value>9</value>
   </data>
@@ -1041,8 +1038,14 @@
   <data name="&gt;&gt;dateTimePickerData.Name" xml:space="preserve">
     <value>dateTimePickerData</value>
   </data>
+  <data name="&gt;&gt;label3.ZOrder" xml:space="preserve">
+    <value>40</value>
+  </data>
   <data name="dateTimePickerData.CustomFormat" xml:space="preserve">
     <value>yyyy-MM-dd hh:mm:ss</value>
+  </data>
+  <data name="label2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="&gt;&gt;btnPrzelicz.Parent" xml:space="preserve">
     <value>$this</value>
@@ -1059,8 +1062,8 @@
   <data name="&gt;&gt;label19.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="label20.Text" xml:space="preserve">
-    <value>Średnie tempo</value>
+  <data name="&gt;&gt;label7.Name" xml:space="preserve">
+    <value>label7</value>
   </data>
   <data name="label20.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>4, 0, 4, 0</value>
@@ -1070,9 +1073,6 @@
   </data>
   <data name="label19.Location" type="System.Drawing.Point, System.Drawing">
     <value>371, 133</value>
-  </data>
-  <data name="label12.TabIndex" type="System.Int32, mscorlib">
-    <value>27</value>
   </data>
   <data name="&gt;&gt;label7.ZOrder" xml:space="preserve">
     <value>36</value>
@@ -1101,17 +1101,11 @@
   <data name="&gt;&gt;txtSumaSredniaPredkosc.ZOrder" xml:space="preserve">
     <value>8</value>
   </data>
-  <data name="txtCzas.TabIndex" type="System.Int32, mscorlib">
-    <value>29</value>
-  </data>
-  <data name="&gt;&gt;txtOkres.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
   <data name="&gt;&gt;btnSzukaj.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="label12.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 0, 4, 0</value>
+  <data name="label12.TabIndex" type="System.Int32, mscorlib">
+    <value>27</value>
   </data>
   <data name="label15.Text" xml:space="preserve">
     <value>Okres</value>
@@ -1122,8 +1116,8 @@
   <data name="&gt;&gt;label8.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <data name="label8.Location" type="System.Drawing.Point, System.Drawing">
-    <value>654, 414</value>
+  <data name="label3.Text" xml:space="preserve">
+    <value>Czas</value>
   </data>
   <data name="&gt;&gt;txtSumaSredniaPredkosc.Parent" xml:space="preserve">
     <value>$this</value>
@@ -1137,19 +1131,19 @@
   <data name="label22.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="&gt;&gt;label9.ZOrder" xml:space="preserve">
-    <value>1</value>
+  <data name="&gt;&gt;txtSumaSrednieTempo.Parent" xml:space="preserve">
+    <value>$this</value>
   </data>
   <data name="&gt;&gt;btnUsun.ZOrder" xml:space="preserve">
     <value>27</value>
   </data>
-  <data name="txtSumaSredniCzasOkrazen.Location" type="System.Drawing.Point, System.Drawing">
-    <value>536, 299</value>
+  <data name="txtGodzina.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
   </data>
   <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
     <value>43</value>
   </data>
-  <data name="label10.AutoSize" type="System.Boolean, mscorlib">
+  <data name="label2.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
   <data name="&gt;&gt;label19.ZOrder" xml:space="preserve">
@@ -1167,8 +1161,8 @@
   <data name="cboMiesiac.Items11" xml:space="preserve">
     <value>Grudzień</value>
   </data>
-  <data name="&gt;&gt;txtGodzina.Name" xml:space="preserve">
-    <value>txtGodzina</value>
+  <data name="txtSumaSredniaPredkosc.Location" type="System.Drawing.Point, System.Drawing">
+    <value>536, 263</value>
   </data>
   <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
     <value>8, 16</value>
@@ -1194,11 +1188,11 @@
   <data name="&gt;&gt;txtIloscOkrazen.ZOrder" xml:space="preserve">
     <value>35</value>
   </data>
-  <data name="cboRok.Items2" xml:space="preserve">
-    <value>2021</value>
+  <data name="&gt;&gt;txtMinuta.Name" xml:space="preserve">
+    <value>txtMinuta</value>
   </data>
-  <data name="txtGodzina.Location" type="System.Drawing.Point, System.Drawing">
-    <value>44, 99</value>
+  <data name="label20.TabIndex" type="System.Int32, mscorlib">
+    <value>41</value>
   </data>
   <data name="dataGridViewMaciej.ColumnHeadersHeight" type="System.Int32, mscorlib">
     <value>30</value>
@@ -1224,11 +1218,11 @@
   <data name="dataGridViewMaciej.Location" type="System.Drawing.Point, System.Drawing">
     <value>13, 452</value>
   </data>
-  <data name="txtSumaCzas.Location" type="System.Drawing.Point, System.Drawing">
-    <value>536, 164</value>
+  <data name="&gt;&gt;label20.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="btnEdytuj.TabIndex" type="System.Int32, mscorlib">
-    <value>20</value>
+  <data name="&gt;&gt;dataGridViewMaciej.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;txtSumaSredniaPredkosc.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -1248,11 +1242,14 @@
   <data name="&gt;&gt;label10.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="label1.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 10pt</value>
-  </data>
   <data name="label9.Text" xml:space="preserve">
     <value>Rok</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1179, 838</value>
+  </data>
+  <data name="&gt;&gt;label4.Name" xml:space="preserve">
+    <value>label4</value>
   </data>
   <data name="&gt;&gt;cboRok.Parent" xml:space="preserve">
     <value>$this</value>
@@ -1278,8 +1275,8 @@
   <data name="&gt;&gt;label6.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="btnSzukaj.Location" type="System.Drawing.Point, System.Drawing">
-    <value>561, 411</value>
+  <data name="&gt;&gt;label5.Name" xml:space="preserve">
+    <value>label5</value>
   </data>
   <data name="&gt;&gt;txtSumaCzas.Parent" xml:space="preserve">
     <value>$this</value>
@@ -1302,8 +1299,8 @@
   <data name="cboMiesiac.Items3" xml:space="preserve">
     <value>Kwiecień</value>
   </data>
-  <data name="label16.Text" xml:space="preserve">
-    <value>Czas</value>
+  <data name="&gt;&gt;txtOkres.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="cboMiesiac.Items1" xml:space="preserve">
     <value>Luty</value>
@@ -1314,8 +1311,8 @@
   <data name="cboMiesiac.Items7" xml:space="preserve">
     <value>Sierpień</value>
   </data>
-  <data name="cboMiesiac.Items4" xml:space="preserve">
-    <value>Maj</value>
+  <data name="cboMiesiac.Items10" xml:space="preserve">
+    <value>Listopad</value>
   </data>
   <data name="&gt;&gt;label9.Parent" xml:space="preserve">
     <value>$this</value>
@@ -1356,8 +1353,8 @@
   <data name="txtSumaCzas.Size" type="System.Drawing.Size, System.Drawing">
     <value>123, 23</value>
   </data>
-  <data name="label12.Text" xml:space="preserve">
-    <value>s:</value>
+  <data name="label15.Size" type="System.Drawing.Size, System.Drawing">
+    <value>46, 17</value>
   </data>
   <data name="txtSumaSredniCzasOkrazen.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>MiddleCenter</value>
@@ -1395,14 +1392,17 @@
   <data name="cboMiesiac.Items5" xml:space="preserve">
     <value>Czerwiec</value>
   </data>
-  <data name="&gt;&gt;label3.ZOrder" xml:space="preserve">
-    <value>40</value>
-  </data>
-  <data name="txtIloscOkrazen.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
+  <data name="label24.Size" type="System.Drawing.Size, System.Drawing">
+    <value>148, 17</value>
   </data>
   <data name="txtSrednieTempo.TabIndex" type="System.Int32, mscorlib">
     <value>30</value>
+  </data>
+  <data name="btnSzukaj.Location" type="System.Drawing.Point, System.Drawing">
+    <value>561, 411</value>
+  </data>
+  <data name="txtIloscOkrazen.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
   </data>
   <data name="&gt;&gt;label3.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -1431,8 +1431,8 @@
   <data name="label24.Location" type="System.Drawing.Point, System.Drawing">
     <value>371, 302</value>
   </data>
-  <data name="txtSumaIloscOkrazen.Location" type="System.Drawing.Point, System.Drawing">
-    <value>536, 130</value>
+  <data name="txtSumaSredniCzasOkrazen.TabIndex" type="System.Int32, mscorlib">
+    <value>46</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
