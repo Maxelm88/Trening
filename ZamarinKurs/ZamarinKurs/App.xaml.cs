@@ -11,7 +11,7 @@ namespace ZamarinKurs
         {
             InitializeComponent();
 
-            MainPage = new StackPage();
+            MainPage = new GridPage();
         }
 
         protected override void OnStart()
