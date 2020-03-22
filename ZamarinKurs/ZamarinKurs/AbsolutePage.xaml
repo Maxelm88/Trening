@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="ZamarinKurs.AbsolutePage">
+
+        
+        <AbsoluteLayout >
+        <StackLayout AbsoluteLayout.LayoutBounds="0, 0, 1, 0.33" AbsoluteLayout.LayoutFlags="All" BackgroundColor="Silver">
+            <!--<BoxView Color="Aqua" AbsoluteLayout.LayoutBounds="0, 0, 1, 1" AbsoluteLayout.LayoutFlags="All" />
+        <BoxView Color="White" AbsoluteLayout.LayoutBounds="0.5, 0.1, 100, 100" AbsoluteLayout.LayoutFlags="PositionProportional" />
+        <Button Text="Get Started" BackgroundColor="Silver" TextColor="White" AbsoluteLayout.LayoutBounds="0,1, 1, 50" AbsoluteLayout.LayoutFlags="PositionProportional, WidthProportional" />-->
+            <Label Text="$11.95" FontSize="20" FontAttributes="Bold" HorizontalTextAlignment="Center"/>
+        <Button Text="Add $7.99 Credit" BorderRadius="15" BackgroundColor="#1695A3"/>
+    </StackLayout>
+        <StackLayout AbsoluteLayout.LayoutBounds="0,1, 1, 0.7" AbsoluteLayout.LayoutFlags="All" BackgroundColor="Aqua">
+            <Label Text="Why pay for credit?" HorizontalOptions="Center" FontAttributes="Bold"/>
+            <Label FontSize="10" HorizontalTextAlignment="Center">
+                Because you can reach people who aren't on
+                SkyApp  by calling mobile and landline
+                numbers, or spending SMS, at low-cost rates.
+            </Label>
+        </StackLayout>
+    </AbsoluteLayout>
+</ContentPage>
