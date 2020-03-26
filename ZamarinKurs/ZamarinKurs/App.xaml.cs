@@ -11,7 +11,7 @@ namespace ZamarinKurs
         {
             InitializeComponent();
 
-            MainPage = new RelativePage();
+            MainPage = new PlatformSpecificImages();
         }
 
         protected override void OnStart()
