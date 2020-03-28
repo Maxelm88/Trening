@@ -7,7 +7,7 @@
              x:Class="ZamarinKurs.PlatformSpecificImages">
     <Button  x:Name="btn" >
         <Button.Image>
-            <OnPlatform x:TypeArguments="FileImageSource" IOS ="clock.png" Android="clock.png" WinPhone="Images/clock.png" />
+            <OnPlatform x:TypeArguments="FileImageSource" Android="clock.png" WinPhone="Images/clock.png" />
         </Button.Image>
     </Button>
 </ContentPage>
