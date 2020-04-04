@@ -11,7 +11,9 @@ namespace ZamarinKurs
         {
             InitializeComponent();
 
-            MainPage = new PopupMainPage();
+            //MainPage = new ToolbarMainPage();
+
+            MainPage = new NavigationPage ( new ToolbarMainPage());
 
 
             //MainPage = new NavigationPage (new ContactsPage());
