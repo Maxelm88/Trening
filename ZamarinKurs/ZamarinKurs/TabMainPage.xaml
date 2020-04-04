@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="ZamarinKurs.TabMainPage"
+            
+            xmlns:local="clr-namespace:ZamarinKurs">
+
+    <local:ContactsPage Title="Contacs" />
+
+    <NavigationPage Title="Page1">
+        <x:Arguments>
+            <local:ContentPage1/>
+        </x:Arguments>
+    </NavigationPage>
+    
+    <ContentPage Title="Page2">
+        <StackLayout>
+        <Label Text="Content of page2" VerticalOptions="Center" HorizontalOptions="Center"/>
+        </StackLayout>
+    </ContentPage>
+</TabbedPage>
