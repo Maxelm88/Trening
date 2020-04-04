@@ -12,57 +12,20 @@ using ZamarinKurs.Models;
 namespace ZamarinKurs
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class BasicList : ContentPage
+    public partial class ContactsPage : MasterDetailPage
     {
-        public BasicList()
+        public ContactsPage()
         {
             InitializeComponent();
 
-            #region listView grupowanie listy
-            //listView.ItemsSource = new List<ContactGroup>
-            //{
-            //    new ContactGroup("M", "M")
-            //    {
-            //    new Contact { Name = "Mosh", ImageUrl  = "http://icons.iconarchive.com/icons/treetog/junior/96/camera-icon.png"},
-
-            //    },
-
-            //    new ContactGroup("J", "J")
-            //    {
-            //new Contact { Name = "John", ImageUrl = "http://icons.iconarchive.com/icons/tuziibanez/profesional-red/96/pictures-folder-icon.png", Status = "Hey, lests talk" }
-
-            //    }
-            //};
-            #endregion
-
             listView.ItemsSource = GetContacts();
+
         }
-
-        #region klikanie i trzymanie
-        //bool isSelected = false;
-        //private void listView_ItemSelected(object sender, SelectedItemChangedEventArgs e)
-        //{
-        //    isSelected = true;
-        //    var contact = e.SelectedItem as Contact;
-        //    DisplayAlert("Selected", contact.Name, "OK");
-        //}
-
-        //private void listView_ItemTapped(object sender, ItemTappedEventArgs e)
-        //{
-        //    if (isSelected)
-        //    {
-        //        isSelected = false;
-        //        return;
-        //    }
-        //    var contact = e.Item as Contact;
-        //    DisplayAlert("Tapped", contact.Name, "ok");
-        //}
-        #endregion
 
         private void Call_Clicked(object sender, EventArgs e)
         {
             var menuItem = sender as MenuItem;
-           var contact = menuItem.CommandParameter as Contact;
+            var contact = menuItem.CommandParameter as Contact;
 
             DisplayAlert("Call", contact.Name, "OK");
         }
@@ -98,17 +61,15 @@ namespace ZamarinKurs
 
         private void SearchBar_TextChanged(object sender, TextChangedEventArgs e)
         {
-           listView.ItemsSource = GetContacts(e.NewTextValue);
+            listView.ItemsSource = GetContacts(e.NewTextValue);
         }
 
-        async void listView_ItemSelected(object sender, SelectedItemChangedEventArgs e)
+        void listView_ItemSelected(object sender, SelectedItemChangedEventArgs e)
         {
-            if (e.SelectedItem == null)
-                return;
-
             var contact = e.SelectedItem as Contact;
-           await Navigation.PushAsync(new ContactDetailPage(contact));
-            listView.SelectedItem = null;
+            Detail = new NavigationPage ( new ContactDetailPage(contact));
+            IsPresented = false; //IsMasterPresented
         }
     }
+
 }

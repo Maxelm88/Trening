@@ -11,12 +11,18 @@ namespace ZamarinKurs
         {
             InitializeComponent();
 
-            //MainPage = new HierarchicalNavigationWelcomePage();
-            MainPage = new NavigationPage(new HierarchicalNavigationWelcomePage())
-            {
-                BarBackgroundColor = Color.Gray,
-                BarTextColor = Color.White
-            };
+            MainPage = new ContactsPage();
+
+
+            //MainPage = new NavigationPage (new ContactsPage());
+
+            #region Hierarchical Navigation
+            //MainPage = new NavigationPage(new HierarchicalNavigationWelcomePage())
+            //{
+            //    BarBackgroundColor = Color.Gray,
+            //    BarTextColor = Color.White
+            //};
+            #endregion
         }
 
         protected override void OnStart()
