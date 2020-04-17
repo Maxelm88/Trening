@@ -20,7 +20,7 @@ namespace ZamarinKurs
 
             //MainPage = new TableViewPage();
 
-            MainPage = new DataBasePage();
+            MainPage = new DataBaseJson();
 
             //MainPage = new NavigationPage ( new ToolbarMainPage());
 
