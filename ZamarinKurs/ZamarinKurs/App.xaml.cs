@@ -8,15 +8,19 @@ namespace ZamarinKurs
     public partial class App : Application
     {
 
-        private const string TitleKey = "Name";
-        private const string NotificationsEnabledKey = "NotificationsEnabled";
+
+        #region Application Properties
+        //private const string TitleKey = "Name";
+        //private const string NotificationsEnabledKey = "NotificationsEnabled";
+        #endregion
+
         public App()
         {
             InitializeComponent();
 
             //MainPage = new TableViewPage();
 
-            MainPage = new ApplicationPropertiesPage();
+            MainPage = new DataBasePage();
 
             //MainPage = new NavigationPage ( new ToolbarMainPage());
 
@@ -49,32 +53,34 @@ namespace ZamarinKurs
             // Handle when your app resumes
         }
 
-        public string Title
-        {
-            get
-            {
-                if (Properties.ContainsKey(TitleKey))
-                   return Properties[TitleKey].ToString();
-                return "";
-            }
-            set
-            {
-                Properties[TitleKey] = value;
-            }
-        }
+        #region Application Properties
+        //public string Title
+        //{
+        //    get
+        //    {
+        //        if (Properties.ContainsKey(TitleKey))
+        //           return Properties[TitleKey].ToString();
+        //        return "";
+        //    }
+        //    set
+        //    {
+        //        Properties[TitleKey] = value;
+        //    }
+        //}
 
-        public bool NotificationsEnabled
-        {
-            get
-            {
-                if (Properties.ContainsKey(NotificationsEnabledKey))
-                   return (bool)Properties[NotificationsEnabledKey];
-                return false;
-            }
-            set
-            {
-                Properties[NotificationsEnabledKey] = value;
-            }
-        }
+        //public bool NotificationsEnabled
+        //{
+        //    get
+        //    {
+        //        if (Properties.ContainsKey(NotificationsEnabledKey))
+        //           return (bool)Properties[NotificationsEnabledKey];
+        //        return false;
+        //    }
+        //    set
+        //    {
+        //        Properties[NotificationsEnabledKey] = value;
+        //    }
+        //}
+        #endregion
     }
 }
