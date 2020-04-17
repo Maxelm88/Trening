@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="ZamarinKurs.ApplicationPropertiesPage">
+    <TableView Intent="Form">
+        <TableRoot>
+            <TableSection>
+                <EntryCell Text="{Binding Title}" Label="Title" Placeholder="eg Shopping"  />
+                <!--x:Name="title" Completed="OnChange"--> //po przeniesieniu zmiennych do app i BindingContext
+                <SwitchCell On="{Binding NotificationsEnabled}" Text="Notifications"   />
+                <!--x:Name="notificationsEnabled" OnChanged="OnChange"--> //po przeniesieniu zmiennych do app i BindingContext
+            </TableSection>
+        </TableRoot>
+    </TableView>
+</ContentPage>
