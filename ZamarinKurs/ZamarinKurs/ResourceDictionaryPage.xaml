@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="ZamarinKurs.ResourceDictionaryPage">
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <x:Int32 x:Key="borderRadius">20</x:Int32>
+            <Color x:Key="buttonBackgroundColor">Gray</Color>
+            <Style x:Key="button" TargetType="Button">
+                <Setter Property="BackgroundColor" Value="Gray"/>
+                <Setter Property="TextColor" Value="White"/>
+                <Setter Property="BorderRadius" Value="{StaticResource borderRadius}"/>
+                <Setter Property="FontAttributes" Value="Bold"/>
+            </Style>
+            <Style x:Key="primaryButton" TargetType="Button" BasedOn="{StaticResource button}">
+                <Setter Property="BackgroundColor" Value="Pink"/>
+            </Style>
+        </ResourceDictionary>
+
+        <!--Aby miec mozliwosc uzywania Resources w wszystkich stronach, nalezy stworzyc App.xaml (zamiast ContentPage to jest Application) i umiescic powyzszy kod tam-->
+
+    </ContentPage.Resources>
+    <StackLayout Spacing="20" VerticalOptions="Center">
+        <!--<StackLayout.Resources></StackLayout.Resources>-->
+        <Button Text="Login static" Style="{StaticResource primaryButton}"/>
+        <Button Text="Login dynamic" Style="{DynamicResource button}"/>
+        <Button Text="Register static" Style="{StaticResource button}"/>
+        <Button Text="Register dynamic" Style="{DynamicResource button}"/>
+        <Button Text="Change Style" Clicked="Button_Clicked" />
+    </StackLayout>
+</ContentPage>
