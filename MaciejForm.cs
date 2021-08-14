@@ -18,7 +18,7 @@ namespace Trening
         DataTable table;
         SqlConnection conn;
 
-        string connString = @"Data Source=MACIEJ-KOMPUTER\SQLEXPRESS;Initial Catalog=trening;Integrated Security=True";
+        string connString = @"Data Source=MACIEJ-KOMPUTER\SQLSERVER2017;Initial Catalog=trening;Integrated Security=True";
 
         string wyswietl = "Select * from Maciej";
 
@@ -45,6 +45,7 @@ namespace Trening
                 dataAdapter.Fill(table); //fill the data table
                 bindingSourceMaciej.DataSource = table; // set the data source on the binding source to the table
                 dataGridViewMaciej.Columns[0].ReadOnly = true; //this helps prevent the id field from being changed
+                // testest
             }
             catch (SqlException ex)
             {

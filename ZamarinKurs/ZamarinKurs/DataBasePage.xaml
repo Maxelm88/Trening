@@ -18,7 +18,7 @@
             </x:Arguments>
             <ListView.ItemTemplate>
                 <DataTemplate>
-                    <TextCell Text="{Binding Name}" />
+                    <TextCell Text="{Binding FullName}" />
                 </DataTemplate>
             </ListView.ItemTemplate>
         </ListView>

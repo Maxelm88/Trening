@@ -18,9 +18,9 @@ namespace ZamarinKurs
         {
             InitializeComponent();
 
-            //MainPage = new TableViewPage();
+            MainPage = new DataBasePage();
 
-            MainPage = new NavigationPage ( new MessagingCenterPage());
+            //MainPage = new NavigationPage ( new MessagingCenterPage());
 
             //MainPage = new NavigationPage ( new ToolbarMainPage());
 

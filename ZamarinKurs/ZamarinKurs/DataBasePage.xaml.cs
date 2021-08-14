@@ -37,6 +37,11 @@ namespace ZamarinKurs
             }
         }
 
+        public string FullName
+        {
+            get { return $"{Id} {Name}";  }
+        }
+
         private void OnPropertyChanged([CallerMemberName] string propertyName = null)
         {
             // jeżeli PropertyChanged jest null to nic nie rób, inaczej wykonaj (Invoke)
